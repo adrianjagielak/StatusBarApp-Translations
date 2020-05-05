@@ -1,0 +1,203 @@
+/* Localizable String */
+sUIName = "StatusBarApp Przetłumaczony";
+sUIVersion = "Wersja Narzędzia";
+sDriverVersion = "Wersja Sterownika: v";
+sCopyright = "Copyright 2018-2019.";
+
+// Button
+OK ="OK";
+CANCEL ="Anuluj";
+NO ="Nie";
+YES ="Tak";
+Join="Połącz";
+Profiles="Profile";
+Profiles_v2="Preferowane sieci";
+Join_Other="Dodaj sieć";
+Show_Nets="Pokaż Sieci";
+Apply="Zastosuj";
+Remove="Usuń";
+PIN="PIN";
+PBC="PBC";
+Forget="Zapomnij tę Sieć";
+
+//DropDownMenu
+State_RfOn="USB-WiFi: Włączone";
+State_RfOff="USB-WiFi: Wyłączone";
+State_Scan="USB-WiFi: Wyszukuję Sieci...";
+State_Unplug="Nie podłączono żadnych adapterów sieciowych";
+State_Disable="Włącz adapter sieciowy";
+
+Info_IfName="Nazwa Interfejsu:";
+Info_MacAddr="Adres:";
+Info_IpAddr= "Adres IP:";
+Info_Router= "Router:";
+Info_Reachable= "Internet: Reachable";
+Info_Unreachable= "Internet: Unreachable";
+//Info_Security
+Info_BSSID= "BSSID:";
+Info_Channel= "Kanał:";
+Info_CountryCode= "Kod Państwa:";
+Info_RSSI= "RSSI:";
+Info_Noise= "Noise:";
+Info_TxRate= "Tx Rate:";
+Info_PhyMode= "PHY Mode:";
+Info_McsIndex= "MCS Index:";
+
+Radio_ON ="Włącz USB-WiFi";
+Radio_OFF ="Wyłącz USB-WiFi";
+Uninstall = "Odinstaluj USB-WiFi";
+Join_Other_Network="Dodaj sieć...";
+Create_Adhoc="Utwórz Sieć Adhoc...";
+WPS_Fun="WPS...";
+Open_Utility="Otwórz Narzędzie Sieciowe...";
+Open_Preference="Otwórz Preferencje Sieci...";
+Edit_Profiles="Edytuj Preferowane Sieci...";
+
+//ScanTable View
+ScanTable_View_Title="Wybierz sieć do której chcesz dołączyć.";
+ScanTable_View_SubTitle="Wybierz sieć do której chcesz dołączyć z listy i wpisz hasło jeżeli to konieczne.";
+Associated="Associated";
+SignalStrength="Siła Sygnału";
+Scanning="Scanning...";
+
+// Setting Field View
+Join_BroadcastSecAP1="Ta sieć";
+Join_BroadcastSecAP2="wymaga";
+Join_BroadcastSecAP3="hasła";
+Join_HiddenSecAP1="This hidden network requires";
+Join_HiddenSecAP2="hasła";
+Join_HiddenOpenAP="Wpisz Nazwę Ukrytej sieci.";
+
+// Join Other
+Create_Infra_Title="Wpisz nazwę sieci.";
+Create_Infra_SubTitle="Wybierz sieć do której chcesz dołączyć i wpisz hasło jeżeli to konieczne.";
+Create_Adhoc_Title="Create a Computer-to-Computer network.";
+Create_Adhoc_SubTitle="Enter the name of the Computer-to-Computer network you want to create.";
+
+//Setting Field
+Security_None="ŻADNE";
+Security_OpenWep="OPEN_SYSTEM WEP";
+Security_SharedWep="SHARED_KEY WEP";
+Security_WpaTkip="WPA_PSK TKIP";
+Security_WpaAes="WPA_PSK AES";
+Security_Wpa2Tkip="WPA2_PSK TKIP";
+Security_Wpa2Aes="WPA2_PSK AES";
+Security_WpaTkip1X="WPA Enterprise TKIP";
+Security_WpaAes1X="WPA Enterprise AES";
+Security_Wpa2Tkip1X="WPA2 Enterprise TKIP";
+Security_Wpa2Aes1X="WPA2 Enterprise AES";
+Security_WEP1X="802.1X WEP";
+Security_WpaNoneTkip="WPA_None TKIP";
+Security_WpaNoneAes="WPA_None AES";
+Security_MixMode="security"; //{5.0.5.b5}
+
+
+//Profile Security Field
+Profile_Wep="WEP";
+Profile_Wpa="WPA Personal";
+Profile_Wpa2="WPA2 Personal";
+Profile_Wpa1X="WPA Enterprise";
+Profile_Wpa21X="WPA2 Enterprise";
+Profile_WpaNone="WPA-None";
+
+NetworkName="Nazwa Sieci:";
+Security="Zabezpieczenia:";
+Password="Hasło:";
+ShowPassword="Pokaż hasło";
+ASCII="ASCII";
+UserName="Nazwa Użytkownika:";
+EAP="802.1x EAP:";
+PEAP="AUTO(PEAP)";
+TLS="EAP-TLS";
+TTLS="EAP-TTLS";
+LEAP="EAP-LEAP";
+CA_Cert="Certyfikat CA:";
+Client_Cert="Certyfikat Klienta:";
+Private_Key="Klucz Prywatny:";
+Private_Key_Pwd="Hasło Klucza Prywatnego:";
+
+Choose_Private_Key="Wybierz plik klucza prywatnego (PEM/DER/PFX)";
+Choose_Client_Cert="Wybierz plik certyfikatu klienta (PEM/DER/PFX)";
+Choose_CA_Cert="Wybierz plik certyfikatu CA (PEM/DER/CER)";
+
+Select_KeyChain_Cert_Desc="Select Certificate From Keychain";
+Select_File_Cert_Desc="Select Certificate File";
+Select_KeyChain_Identity_Desc="Select Identity From Keychain";
+Select_KeyChain_Key_Desc="Select Private Key From Keychain";
+Select_File_Key_Desc="Select  Private Key File";
+
+Cert_Expire="The certificate file is expired";
+
+Cert_Examine_Title1="Authenticating to network";
+Cert_Examine_Title2=" ";
+Cert_Examine_Info1="Before authentication to server";
+Cert_Examine_Info2=",you should examine the server's certificate to ensure that it is appropriate for this network.\n\nTo view the certificate, click \'Show Certificate\'.";
+
+
+// Profiles
+PreferredNet="Preferowane Sieci:";
+StateTitle="Stan";
+SSIDTitle="SSID";
+SecurityTitle="Zabezpieczenia";
+
+
+//WPS
+WPS_PIN_Title="Please key the PIN code into your AP's config page";
+WPS_PBC_Title="The Push Button Configuration (PBC) is performed";
+WPS_Second="sec";
+WPS_Progress="WPS Progress :";
+WPS_init_Str = "  initialize WPS process  ";
+WPS_scan_Str = "  Scan Active WPS AP  ";
+WPS_connect_Str = "  Connect to Active WPS AP  ";
+WPS_handshake_Str ="  Initialize the WPS handshake  ";
+WPS_exchange_Str ="  Exchange WPS Message  ";
+WPS_done_Str = "  Exchange WPS Message [Done]  ";
+WPS_fail_Str = "  Exchange WPS Message Fail , Try to connect other WPS AP  ";
+WPS_start_Str = "  WPS START ";
+WPS_finish_Str = "     WPS Protocol Finished !!";
+WPS_auto_connect_Str = "It will connect to WPS AP automatically.";
+WPS_timeout_Str = "     WPS Time Out !!";
+WPS_connection_failed_Str = " Connection failed. Please try again later !!";
+
+Wps_overlap_Str = "Session Overlap";
+Wps_more_pbc_Str = "     More than One AP in PBC Mode !!";
+Wps_retry_Str = "Please use PIN or wait for a while and try again";
+
+ERROR0 = "ERROR";
+ERROR1 = "Please input key!";
+ERROR2 = "Incorrect wep key index!!!";
+ERROR3 = "The key length is 8~63 ASCII or 64 hex!";
+ERROR4 = "The network key is not of heximal(0~9, a~f, A~F) format!";
+ERROR5 = "The length of the ASCII key must be 5 or 13!";
+ERROR6 = "The length of the network key is not correct!";
+ERROR7 = "The length of the network key must be 10 or 26!";
+ERROR8 = "The Network key and Confirm key is not the same!";
+ERROR9 = "The network key is not of ASCII format!";
+ERROR10 = "The network key is not of 64HEX(0~9, a~f, A~F) format!";
+ERROR11 = "This ChannelPlan can't join Adhoc with channel 12,13 or Band2, Band3!!";
+ERROR12 = "Can't join Adhoc with WPA-NONE !!";
+ERROR13 = "Can't join Adhoc with WPA2-PSK !!";
+ERROR14 = "WPA/WPA2 Enterprise isn't support !!";
+ERROR15 = "Please allow utility to access keychain.";
+
+WARNING0 = "Uwaga";
+WARNING1 = "Wpisz identyfikator SSID";
+WARNING2 = "Wpisz nazwę profilu";
+WARNING3 = "Długość SSID jest większa niż 32.";
+WARNING4 = "Taki profil już istnieje. Czy chcesz go nadpisać?";
+WARNING5 = "Czy jesteś pewny, że chcesz usunąć zaznaczony Profil?";
+
+NOTICE0 = "NOTICE";
+NOTICE1 = "AP mode error.";
+NOTICE2 = "STA mode error.";
+NOTICE3 = "QOSMode Set value fail";
+NOTICE4 = "QOSMode Get value fail";
+NOTICE5 = "QOSMode incorrect value";
+NOTICE6 = "RTSThreshold Out of range.(0 ~ 2432)";
+NOTICE7 = "FragmentationThreshold Out of range.(256 ~ 2432)";
+NOTICE8 = "Please enable the WLAN card in the Network item of System Preferences.";
+NOTICE9 = "Connect your Wlan adapter to your computer";
+NOTICE10 = "Nieprawidłowe hasło, spróbuj ponownie";
+NOTICE11 = "Are you sure to do uninstallation?";
+NOTICE12 = "System Extension Blocked";
+NOTICE13 = "System software from developer 'TP-Link Technologies Co., Ltd.' was blocked from loading.";
